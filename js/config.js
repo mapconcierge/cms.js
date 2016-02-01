@@ -3,20 +3,20 @@ $(function() {
   CMS.init({
 
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
-    siteName: 'My Site',
+    siteName: 'This is mapconcierge's cms.js test site',
 
     // Tagline for your site
     siteTagline: 'Your site tagline',
 
     // Email address
-    siteEmail: 'your_email@example.com',
+    siteEmail: 'info@mapconcierge.com',
 
     // Name
-    siteAuthor: 'Your Name',
+    siteAuthor: 'mapconcierge',
 
     // Navigation items
     siteNavItems: [
-      { name: 'Github', href: 'https://github.com/yourname', newWindow: false},
+      { name: 'Github', href: 'https://github.com/mapconcierge', newWindow: false},
       { name: 'About'}
     ],
 
@@ -53,8 +53,8 @@ $(function() {
 
      // If Github mode is set, your Github username and repo name.
     githubUserSettings: {
-      username: 'yourusername',
-      repo: 'yourrepo'
+      username: 'mapconcierge',
+      repo: 'cms.js'
     },
 
     // If Github mode is set, choose which Github branch to get files from.
